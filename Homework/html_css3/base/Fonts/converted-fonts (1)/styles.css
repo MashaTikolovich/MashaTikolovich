@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'PTSans-BoldItalic';
+  src: url(./PTSans-BoldItalic.eot);
+  src: url(./PTSans-BoldItalic.eot?#iefix) format('embedded-opentype'),
+       url(./PTSans-BoldItalic.svg#PTSans-BoldItalic) format('svg'),
+       url(./PTSans-BoldItalic.otf) format('otf'),
+       url(./PTSans-BoldItalic.ttf) format('truetype'),
+       url(./PTSans-BoldItalic.woff2) format('woff2'),
+       url(./PTSans-BoldItalic.woff) format('woff');
+}
