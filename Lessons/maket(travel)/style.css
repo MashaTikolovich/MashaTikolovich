@@ -1,0 +1,211 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-image: url(https://s3-alpha-sig.figma.com/img/689a/2467/122f863358e82f3cc1dbab4d71a827f9?Expires=1700438400&Signature=hfd7wu4tAuMhqMhxVm6KydPcIToWmMGFBPQsi-HEYcBHLZJ92Rf9wSDGSombeh3P2Ao3xp96ZdratleMDra58wwHkinTCy8aggn-tS7N6GhQM~uoWV43Ibi5XNTZadgIydXBnMV-kWA2eBqvrWb0v3Sc-1njrWF5oWfrQul183jgB4UO1hAcgq50kZme9Z0sw7ricVmJG8t4DWrDAEOXlmorOr-t1nbA5h660BnGysv4Oo0Y4Fz4EMO82A~I1hG936GiXNyfKqt-17VPKBPRVyan3~iHeubyBcWmlghS~M2l9OFlpzlYnGee-Uv-Y1WvRUlg0HfChPGjRbhDiwuDoQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    border-radius: 24px;
+    height: 700px;
+    background-size: cover;
+    width: 1380px;
+    margin: auto;
+    background-position: center;
+}
+body
+{
+    padding-top: 20px;
+}
+.flight 
+{
+    color: white;
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+}
+.picture
+{
+ position: relative;
+ float: left;
+ width: 22.50px;
+ height: 19.50px;
+ left: 0.75px;
+ top: 2.25px;
+ padding-left: 20px;
+ padding-top: 15px;
+}
+.find
+{
+    float: left;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.bed
+{
+    position: relative;
+    float: left;
+    width: 22.50px;
+    height: 19.50px;
+    left: 0.75px;
+    top: 2.25px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.globe
+{
+    text-align: center;
+    padding: 30px;
+}
+.signup 
+{
+    float: right;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 35px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 30px;
+}
+.login 
+{
+    float: right;
+    padding: 20px;
+    color:white
+}
+.help
+{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding-top: 68px;
+}
+.main 
+{
+    text-align: center;
+    font-size: 80px;
+    color:white;
+    padding-top: 2px;
+}
+.offers
+{
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    padding-top: 10px;
+}
+.top
+{
+    width: 1232px;
+    height: 280px;
+    padding: 16px 32px 32px 32px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 300px;
+    background-color: var(--Neutrals, #FFF);
+    flex-direction: column;
+    
+}
+.flights 
+{
+    float: left;
+    padding: 20px;
+    
+
+}
+.stays
+{
+    float: left;
+    padding: 20px;
+
+}
+.between
+{
+    clear: both;
+}
+.from-to
+{
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 4px 0px 4px 16px; 
+    width: 308px;
+    height: 56px;
+    float: left;
+    margin: 8px;
+    padding-top: 15px;
+}
+.link
+{
+    float: right;
+    padding-right: 5px;
+}
+.down
+{
+    float: right;
+    padding-right: 5px;
+}
+.trip
+{
+    width: 140px;
+    height: 56px;
+    border: solid 1px;
+    border-radius: 4px;
+    float:left;
+    padding: 4px 0px 4px 16px;
+    align-items: center;
+    margin: 8px;
+    padding-top: 15px;
+}
+.dates
+{
+    width: 324px;
+    height: 56px;
+    border:solid 1px;
+    border-radius: 4px;
+    float:left;
+    margin: 8px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.passenger
+{
+    width: 324px;
+    height: 56px;
+    border: solid 1px;
+    float: left;
+    margin: 8px;
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.between2
+{
+    clear:both
+}
+.show 
+{
+    float: right;
+    border-radius: 4px;
+    background: var(--Mint-Green, #8DD3BB);
+    width: 144px;
+    height: 48px;
+    padding: 8px 16px;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+.add
+{
+    float: right;
+    width: 142px;
+    height: 48px;
+    padding: 8px 0px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-right: 10px;
+
+
+}
