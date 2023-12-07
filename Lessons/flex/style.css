@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    background-color: rgb(207, 226, 243);
+    height: 80px;
+    justify-content:space-around;
+}
+.square{
+    border:solid;
+    border:5px;
+    border-color:black;
+    background-color:rgb(147, 196, 125);
+    width: 200px;
+    height: 15px;
+    padding: 20px;
+    align-self: center;
+}
+.wrap{
+    display: flex;
+}
+.menu{
+    display: flex;
+    background-color:rgb(147, 196, 125);
+    height: 300px;
+    width: 400px;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.square2{
+    border: solid;
+    border-color:black;
+    border:5px;
+    background-color:yellow;
+    width: 150px;
+    height: 15px;
+    padding: 20px;
+    align-self: center;
+}
+.content{
+    display: flex;
+    background-color:rgb(142, 124, 195);
+    height: 300px;
+    width: 750px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.square3{
+    background-color:rgb(207, 226, 243);
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    align-self: center;
+    padding: 20px;
+}
+.banner{
+    display: flex;
+    background-color:rgb(147, 196, 125);
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+}
+.square4{
+    background-color:rgb(207, 226, 243);
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+}
+.futer{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(207, 226, 243);
+    height: 200px;
+}
+.first-square5{
+    background-color:yellow;
+    width: 150px;
+    height: 30px;
+    align-self:flex-start;
+    margin-top: 10px;
+}
+.second-square5{
+    background-color:yellow;
+    width: 150px;
+    height: 30px;
+    align-self:center;
+}
+.tri-square5{
+    background-color:yellow;
+    width: 150px;
+    height: 30px;
+    align-self:center;
+    margin-top: 50px;
+}
+.last-square5{
+    background-color:yellow;
+    width: 150px;
+    height: 30px;
+    align-self:flex-end;
+    margin-bottom: 10px;
+}

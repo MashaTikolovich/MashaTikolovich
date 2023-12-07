@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first{
+    margin-bottom: 25px;
+}
+.first a{
+    color: green;
+    border-right: 2px solid red;
+    padding: 10px;
+    vertical-align: middle;
+}
+.first a:last-child{
+    border: none;
+}
+.first a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* 2---------------------------------- */
+.second{
+    margin-bottom: 14px;
+}
+.second a{
+    color: green;
+    padding: 10px;
+}
+.second img{
+    vertical-align: middle;
+}
+.second a:hover{
+    color: red;
+    text-decoration: none;
+}
+/* 3----------------------------------- */
+.third a{
+    color: green;
+    padding: 0 8px;
+}
+.third a:hover{
+    color: red;
+    text-decoration: none;
+}
+.third span{
+    color: red;
+    font-weight: 900;
+    font-size: 30px;
+    vertical-align: middle;
+}
