@@ -15,10 +15,10 @@ table.CHESS
   tr:nth-child(even) td:nth-child(odd){
     background-color: black;
   }
-  html body table.CHESS td:nth-child(1),
-  html body table.CHESS td:last-child,
-  html body table.CHESS tr:first-child td,
-  html body table.CHESS tr:last-child td
+  table.CHESS td:nth-child(1),
+  table.CHESS td:last-child,
+  table.CHESS tr:first-child td,
+  table.CHESS tr:last-child td
  {
   background-color: rgb(22, 139, 87);
   width: 25px;
