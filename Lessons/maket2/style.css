@@ -3,16 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-.conteiner{
-    height: ;
+.main{
+    display: flex;
+    width: 100%;
+    height: 820px;
+    flex-shrink: 0;
+    background: url(https://s3-alpha-sig.figma.com/img/64a1/5a4c/22a0adf36ee5a68b3f5e2d176e578c0c?Expires=1703462400&Signature=QD6qGPLYQvyXS6NKslvXmaEFfYclyB9s18sGLHyHEPs1jBtINdz3vwFCSvo~hjF4P8Omtf0t66jiCKKzktwcNSGFlwZjDolwOPRswLvaLahgto1PjxdnW-1aU7em7t7Cv~hjmDjxTBB5MnGcXreYtIBfO0mrGrebvsXk24uGpdzOutfg0nu0MkAHknooc459m-LyxOFdrDXYbnGalLKB446FLuXiwiNHZ1w7jp1sashkoKHAc~cIEhDU~Sv97rq6H~Ujr0kXma8uDvwZr62rueQJrWl~SOPbkeqBZi2C5jwQnWMtjinOB~gDHYX-w9kRK8nCgjOpibVG9XxJE533mg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4), lightgray -13.607px 0px / 141.79% 100% no-repeat;
 }
-.list{
+.header{
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-around;
-    
-
 }
-.main{
-    display:flex;
-    background-image: url(https://s3-alpha-sig.figma.com/img/64a1/5a4c/22a0adf36ee5a68b3f5e2d176e578c0c?Expires=1702857600&Signature=Xg5Rfuzz3EVTbjQDH6yaB8TgGnBM9iGe9tLGXIRqAFHdv0~fxy52KkqeOmzWVp~1xbhKW~c99weHcG-AdArqjcU0xSpH3EJ19IGm4iLEGSkiGG7~hr8q63c7f5afbGctzx3gqtCSOlDTpS2vph8IdmTO4tlYFyOwm25WN2EzR4LuvFiL1LztRHH~k3qcDkGOzmoNX-3gSrNcGoUGbZRD8B-IA2bKMxAEL~SM1j7G1T7ypJgW6VW66hco0K1P8eGxXAPH4nsHt-4DrothRvQcxPU9zzSzqXmep6ASsUmvk7O4LGRIjBDKe3C3swVLyQbE3gRUvbii3vPLbhpw0AFm7A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+.backbutton{
+    display: flex;
+    width: 210px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    opacity: 0.45;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    display: flex;
+    width: 190px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 17px;
+    background-color:#5CCD6A;
+    margin-top: 11px; 
+    margin-left: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px -2px 12px 0px rgba(34, 111, 33, 0.36) inset;
+}
+a{
+    color: #495E4C;
+    font-family: Proxima Nova;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.maintext{
+    color: #495E4C;
+    font-family: Ruberoid;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74px; /* 115.625% */
+    text-transform: capitalize;
 }
