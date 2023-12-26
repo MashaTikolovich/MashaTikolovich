@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.stars{
+    content: "";
+    display: block;
+    clear: both;
+    float: left;
+}
+.star{
+    width: 75px;
+    height: 78px;
+    float: right;
+    background-image: url(img/star0.png);
+}
+.star:hover{
+    background-image: url(img/star1.png);
+}
+.star:hover ~ div{
+    background-image: url(img/star1.png);
+}
