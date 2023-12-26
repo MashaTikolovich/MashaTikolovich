@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  [href^="https://"]::before
+  {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=);
+    margin-right: 2px;
+    vertical-align: text-bottom;
+  }
+  div p {
+    color: blue;
+    font-style: italic;
+    font-size: 20px;
+  }
+  b:first-child {
+    color: red;
+  }
+  h2 + p {
+    color: green;
+  }
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:last-of-type {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  @media print {
+    [href^="https://"]
+    {
+      visibility: hidden;
+    }
+    [href^="https://"]:nth-of-type(1)::before
+    {
+      content: "ссылка информация на https://chesswood.ru/biography/mikhail-botvinnik.html";
+      visibility: visible;
+    }
+    [href^="https://"]:nth-of-type(2)::before
+    {
+      content: "ссылка информация на https://chesswood.ru/biography/anatoly-karpov.html";
+      visibility: visible;
+    }
+    [href^="https://"]:nth-of-type(3)::before
+    {
+      content: "ссылка информация на https://chesswood.ru/biography/garry-kasparov.html";
+      visibility: visible;
+    }
+  }

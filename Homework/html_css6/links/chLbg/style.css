@@ -1,27 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-p:first-child{
-    font-size: 28px;
-    font-weight: 900;
-    padding-bottom: 30px;
-}
-p:nth-child(2){
-    color: green;
-    padding-bottom: 20px;
-}
-p:nth-child(3){
-    color: red;
-    padding-bottom: 20px;
-}
-[href^="https://"]::before {
-    content: url(img/extref.png);
-    
-}
-a + p{
+  }
+  [href^="https://"]
+  {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=) no-repeat;
+    background-position: left center;
+    padding-left: 12px;
+    display: inline-block;
+  }
+  div p {
     color: blue;
     font-style: italic;
-    padding: 20px 0px;
-}
+    font-size: 20px;
+  }
+  b:first-child {
+    color: red;
+  }
+  h2 + p {
+    color: green;
+  }
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:last-of-type {
+    margin-top: 20px;
+    display: inline-block;
+  }
