@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    color: white;
+    vertical-align: baseline;
+}
+body{
+    width: 1510px;
+    height: 1040px;
+}
+.wrap{
+    flex-shrink: 0;
+    background:url(img/Rectangle\ 35.jpg), lightgray 50% / cover no-repeat;
+    background-size: cover;
+}
+.logowrap{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.header{
+    display: flex;
+    padding: 24px 0px;
+    justify-content: space-between;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    font-family: Raleway;
+    display: inline-block; 
+    overflow: hidden;
+    color:white;
+    }
+    
+a {
+    transition: 0.5s;
+    }
+    
+a:hover {
+    transform: scale(1.2); 
+    }
+
+.menu{
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content: center;
+}
+.ul_menu{
+    display:flex;
+    flex: 1;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.socialmedia{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}
+h1{
+    font-family: Raleway;
+    font-size: 80px;
+    font-weight:lighter;
+    padding-left: 220px;
+    padding-top: 25px;
+}
+
+.leftside {
+    display: flex;
+}
+h2{
+    font-family:Jost;
+    padding-left: 220px;
+    padding-top: 150px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.card{
+    border-radius: 16px;
+    background: var(--white-35, rgba(255, 255, 255, 0.35));
+    width: 18rem;
+    /* blur */
+    backdrop-filter: blur(6px);
+}
+.card-img-top{
+    padding: 20px;
+    border-radius: 16px;
+}
+.page2{
+    display: flex;
+    background: linear-gradient(180deg, rgba(61, 50, 79, 0.75) 0%, rgba(61, 50, 79, 0.00) 100%),url(img/Rectangle\ 35.jpg), lightgray 50%;
+    background-size: cover;
+    height: 700px;
+
+}
+.welcome{
+    width: 856px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 200px;
+    padding-top: 100px;
+
+
+}
+h3{
+    font-family: Raleway;
+    font-size: 50px;
+}
+p{
+    font-family: Jost;
+}
+.button1{
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--white, #FFF);
+    color: black;
+    box-shadow: 10px 5px 5px rgb(62, 130, 203);
+}
+.video{
+    padding-top: 250px;
+}
+.page3{
+    display: flex;
+    background: linear-gradient(180deg, rgba(61, 50, 79, 0.75) 0%, rgba(61, 50, 79, 0.00) 100%),url(img/Rectangle\ 35.jpg), lightgray 50%;
+    background-size: cover;
+    height: 769px;
+}
+.ccarousel carousel-dark slide{
+    display: flex;
+    padding-top: 200px;
+
+}
+.ourrooms{
+    font-family: Raleway;
+    font-size: 100px;
+    padding-left: 20px;
+}
+.page4{
+    display: flex;
+    background: linear-gradient(180deg, rgba(61, 50, 79, 0.75) 0%, rgba(61, 50, 79, 0.00) 100%),url(img/Rectangle\ 35.jpg), lightgray 50%;
+    background-size: cover;
+    height: 1040px;
+}
+.bars{
+    width: 600px;
+    font-family: Montserrat;
+    font-size: 30px;
+    padding-top: 50px;
+    font-family: Jost;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.maps{
+    padding-top: 20px;
+}
